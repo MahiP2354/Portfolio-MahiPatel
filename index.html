@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">Mahi</a>
+            
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+                    
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <i class='bx bx-building'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-dots'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <i class='bx bx-moon change-theme' id="theme-button"></i>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container. container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hello, I'm</span>
+                    <h1 class="home__name">Mahi Patel</h1>
+                    <h3 class="home__education">Web Developer</h3>
+                    
+                    <div class="home__buttons">
+                        <a href="assets/pdf/" class="button button--ghost">
+                            Download Resume
+                        </a>
+                        <a href="#about" class="button">About me</a>
+                    </div>
+                </div>  
+
+                <div class="home__handle">
+                    <img src="assets/img/profile.png.jpg" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/mahi-patel-94ab32190" target="_blank" class="home__social-link">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                    <a href="" target="_blank" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                </div>
+                
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+        <section class="about section" id="about">
+            <span class="section__subtitle">My Intro</span>
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <p class="about__description">
+                        Motivated and Hard working final year computer science student with experience of web development. Prepared 2 projects during my academics.
+                        Seeking to leverage development and design skills to provide excellent solutions.
+                        Looking to work in a growth-oriented, technology driven organisation which offers me challenging opportunities to expand and enhance my skills, learnings and knowledge.
+                        Capable of mastering new technologies.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="education section bd-conatiner">
+            <div class="qualification__conatiner bd-grid">
+                <div class="qualification__content">
+                    <h2 class="qualification__title">
+                        <i class='bx bx-book-bookmark qualification__title-icon'></i>
+                        Education
+                    </h2>
+
+                    <div class="bd-grid">
+                        <div class="qualification__data">
+                            <h3 class="qualification__area">Indore Institute of Science & Technology</h3>
+
+                            <div class="qualification__box">
+                                <span class="qualification__work">
+                                    B.tech, Computer Science 
+                                </span>
+                                <span class="qualification__work">
+                                    <i class='bx bx-calendar-alt qualification__icon'></i>
+                                    2019-2023
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="skills section" id="skills">
+            <span class="section__subtitle">My technical abilities</span>
+            <h2 class="section__title">Skills</h2>
+
+            <div class="skills__container constainer grid">
+                <div>
+
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class='bx bx-code-curly skills__icon'></i>
+
+                            <div>
+                                <h1 class="skills__title">Frontend</h1>
+                            </div>
+                            <i class='bx bx-chevron-down skills__arrow'></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__react"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class='bx bx-server skills__icon'></i>
+
+                            <div>
+                                <h1 class="skills__title">Backend</h1>
+                            </div>
+
+                            <i class='bx bx-chevron-down skills__arrow'></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">C/C++</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__c"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__python"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Node Js</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__node"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">MySQL</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__sql"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects section">
+            <span class="section__subtitle">What I Created</span>
+            <h2 class="section__title">Projects</h2>
+            
+            <div class="services__container container grid">
+                    <div class="services__card">
+                        <h3 class="services__title">Automated Attendance<br> System</h3>
+
+                        <button type="submit" class="btn" data-target="#modal4" onclick="openPopup()">See More -></button>
+
+                        <div class="services__modal" id="modal4">
+                        <div class="services__modal-content">
+                            
+                            <button type="button" class="btn modal-btn" data-target="#modal4" onclick="closePopup()">X</button>
+
+                            <h3 class="services__modal-title">Automated Attendance System</h3>
+                            <h4 class="services__modal-subtitle">Using Face Detection</h4>
+                            <p class="services__modal-description">
+                                The software is designed for deploying an
+                                easy and a secure way of taking down
+                                attendance. The software first captures an
+                                image of all the authorized persons and
+                                stores the information into database. The
+                                system then stores the image by mapping
+                                it into a face coordination structure.
+                                
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-radio-circle-marked services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Team Members: 3
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-radio-circle-marked services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Role in Project: UI Design
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-radio-circle-marked services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Technology Used: OpenCV library, face_recognition library,
+                                        Tk interface
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="services__card">
+                        <h3 class="services__title">GetSpace <br> Property Rental System</h3>
+
+                        <button type="submit" class="btn" data-target="#modal1" onclick="openPopup()">See More -></button>
+
+                        <div class="services__modal" id="modal1">
+                        <div class="services__modal-content">
+                            <button type="button" class="btn modal-btn" data-target="#modal1" onclick="closePopup()">X</button>
+                            
+                            <h3 class="services__modal-title">Property Rental System</h3>                            
+                            <p class="services__modal-description">
+                                GetSpace is designed to provide the facility where 
+                                the customer can easily buy or sell their properties
+                                such as land, villa, apartments, shops, even halls 
+                                as per their requirements. It contains a search filter
+                                which helps users to search property in a certain city, 
+                                area or state. 
+                                It also contain map facility which help them to locate
+                                the location of property easily. 
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-radio-circle-marked services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Team Members: 3
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-radio-circle-marked services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Role in Project: UI Design
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-radio-circle-marked services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Java is used for developing a web based project .
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-radio-circle-marked services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        JSP is used for making Registration page, 
+                                        display details page and by connecting with 
+                                        MySql Server  through JDBC.
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-radio-circle-marked services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        HTML is use for making Login page & CSS and 
+                                        Bootstrap is use for apply design on all pages.
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-radio-circle-marked services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        MySql database is used for storing and managing 
+                                        the data of Renter & Rental .
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-radio-circle-marked services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Web Application Server: Apache Tomcat
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-radio-circle-marked services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        IDE: Netbeans
+                                    </p>
+                                </li>                               
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="services__card">
+                        <h3 class="services__title">Note Taking <br> Application</h3>
+
+                        <button type="submit" class="btn" data-target="#modal2" onclick="openPopup()">See More -></button>
+                    
+                        <div class="services__modal" id="modal2">
+                        <div class="services__modal-content">
+                            <button type="button" class="btn modal-btn" data-target="#modal2" onclick="closePopup()">X</button>
+                            
+
+                            <h3 class="services__modal-title">Note Taking Application</h3>
+                            <p class="services__modal-description">
+                                The kind of app that let you keep everything 
+                                from a small idea to brief minutes of meeting 
+                                in one place, on your desired device.
+                                It emphasize collecting and organizing short-term 
+                                as well as long-term data in one place. 
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-radio-circle-marked services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Individual Project
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-radio-circle-marked services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Technology Used: HTML, CSS, ReactJs
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="services__card">
+                        <h3 class="services__title">Temperature <br> Converter</h3>
+
+                        <button type="submit" class="btn" data-target="#modal3" onclick="openPopup()">See More -></button>
+                    
+                        <div class="services__modal" id="modal3">
+                        <div class="services__modal-content">
+                            <button type="button" class="btn modal-btn" data-target="#modal3" onclick="closePopup()">X</button>
+                            
+                            <h3 class="services__modal-title">Temperature Converter</h3>
+                            <p class="services__modal-description">
+                                It is website which can convert between different 
+                                temperature units, Celsius (°C), Fahrenheit (°F) 
+                                you just need to enter a original value and select 
+                                the original unit, converter will quickly calculate 
+                                the value of other temperature unit.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-radio-circle-marked services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Internship Project
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-radio-circle-marked services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Technology Used: HTML, CSS, JS
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                
+                
+                
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <span class="section__subtitle">Get in Touch</span>
+            <h2 class="section__title">Contact Me</h2>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title">Feel Free to Message</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">mahipatel2354@gmail.com</span>
+
+                            <a href="mailto:mahipatel2354@gmail.com" target="_blank" class="contact__button">
+                                Write me <i class='bx bx-right-arrow-alt contact__button-icon' ></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-whatsapp contact__card-icon' ></i>
+                            <h3 class="contact__card-title">WhatsApp</h3>
+                            <span class="contact__card-data">9827561985</span>
+
+                            <a href="https://api.whatsapp.com/send?phone=919827561985&text=Hello, more information!" target="_blank" class="contact__button">
+                                Write me <i class='bx bx-right-arrow-alt contact__button-icon' ></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title">Contact</h3>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Name</label>
+                            <input type="text" placeholder="Insert your name" class="contact__form-input">
+                        </div>
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Mail</label>
+                            <input type="text" placeholder="Insert your email" class="contact__form-input">
+                        </div>
+                        <div class="contact__form-div contact__form-area">
+                            <label for="" class="contact__form-tag">Message</label>
+                            <input type="text" placeholder="Write your message.." class="contact__form-input">
+                        </div>
+
+                        <button class="button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Mahi</h1>
+            <ul class="footer__list">
+                <li>
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li>
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+                <li>
+                    <a href="#projects" class="footer__link">Projects</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <a href="" target="_blank" class="footer__social-link">
+
+                </a>
+                <a href="" target="_blank" class="footer__social-link">
+                    
+                </a>
+                <a href="" target="_blank" class="footer__social-link">
+                    
+                </a>
+            </ul>
+        </div>
+    </footer>
+
+    
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
+
